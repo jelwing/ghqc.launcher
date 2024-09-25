@@ -1,0 +1,21 @@
+Package: ghqc.launcher
+Title: Launches ghqc shiny apps as background jobs
+Version: 0.0.0.9006
+Authors@R: c(
+    person("Anne", "Zheng", email = "anne@a2-ai.com", role = c("aut", "cre")),
+    person("Jenna", "Johnson", email = "jenna@a2-ai.com", role = c("aut")),
+    person("Devin", "Pastoor", email = "devin@a2-ai.com", role = c("aut")))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: httpuv (>= 1.6.11), rstudioapi (>= 0.16.0), withr (>= 3.0.0)
+Repository: https://github.com/a2-ai-tech-training/ghqcLauncher.git
+NeedsCompilation: no
+Packaged: 2024-09-17 20:56:20 UTC; jenna
+Author: Anne Zheng [aut, cre],
+  Jenna Johnson [aut],
+  Devin Pastoor [aut]
+Maintainer: Anne Zheng <anne@a2-ai.com>
